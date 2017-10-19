@@ -48,7 +48,7 @@ enum EStepType {
     eImplicit
 };
 
-const bool debug = false;
+const bool debug = true;
 
 class CEarlyExit : public runtime_error {
 public:
